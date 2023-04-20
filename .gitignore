@@ -1,0 +1,16 @@
+/.idea/
+*.iml
+/target/
+/out/
+/lib
+/build/
+/.gradle/
+/bin
+.classpath
+.project
+.settings
+*.versionsBackup
+test-output
+src/main/resources/config.azure.*
+.allure
+allure-results

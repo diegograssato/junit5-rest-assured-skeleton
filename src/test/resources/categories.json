@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Skipped Tests By @Disabled - Definition",
+    "matchedStatuses": ["skipped"],
+    "messageRegex": ".*@Disabled.*"
+  },
+  {
+    "name": "Broken Tests - Definition",
+    "matchedStatuses": ["broken"],
+    "traceRegex": ".*WebDriverException.*",
+    "messageRegex": ".*unknown error.*"
+  },
+  {
+    "name": "Test Defects - Definition",
+    "matchedStatuses": ["broken", "failed"]
+  },
+  {
+    "name": "Passed tests",
+    "matchedStatuses": ["passed"]
+  }
+]

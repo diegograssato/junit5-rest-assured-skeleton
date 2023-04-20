@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "cep": {
+      "type": "string"
+    },
+    "logradouro": {
+      "type": "string"
+    },
+    "complemento": {
+      "type": "string"
+    },
+    "bairro": {
+      "type": "string"
+    },
+    "localidade": {
+      "type": "string"
+    },
+    "uf": {
+      "type": "string"
+    },
+    "ibge": {
+      "type": "string"
+    },
+    "gia": {
+      "type": "string"
+    },
+    "ddd": {
+      "type": "string"
+    },
+    "siafi": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "cep",
+    "logradouro",
+    "complemento",
+    "bairro",
+    "localidade",
+    "uf",
+    "ibge",
+    "gia",
+    "ddd",
+    "siafi"
+  ]
+}
